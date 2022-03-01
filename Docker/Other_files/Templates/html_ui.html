@@ -1,0 +1,70 @@
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction</title>
+</head>
+
+<body>
+
+    <div style="color:blue">
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2>Predict if your wine is high quality</h2>
+			<br> <br>
+			<h2> ENTER: </h2>
+			<br> <br>
+			
+			
+            <h3>fixed acidity</h3>
+            <input id="first" name="fixed acidity" type="number ">
+			
+            <h3>volatile acidity</h3>
+            <input id="first" name="volatile acidity" type="number ">
+			
+            <h3>citric acid</h3>
+            <input id="first" name="citric acid" type="number ">
+			
+            <h3>residual sugar</h3>
+            <input id="first" name="residual sugar" type="number ">
+			
+            <h3>chlorides</h3>
+            <input id="first" name="chlorides" type="number ">
+			
+            <h3>free sulfur dioxide</h3>
+            <input id="first" name="free sulfur dioxide" type="number ">
+			
+            <h3>total sulfur dioxide</h3>
+            <input id="first" name="total sulfur dioxide" type="number ">
+			
+            <h3>Density</h3>
+            <input id="first" name="density" type="number ">
+			
+            <h3>pH</h3>
+            <input id="first" name="pH" type="number ">
+			
+            <h3>sulphates</h3>
+            <input id="first" name="sulphates" type="number ">
+			
+            <h3>alcohol</h3>
+            <input id="first" name="alcohol" type="number ">
+			
+			
+					
+					
+			
+			<button id="sub" type="submit "> Submit</button>
+		            <br>
+
+
+
+
+		   </form>
+
+
+
+		   <br><br><h3>{{ result }}<h3>
+</div>
+			
