@@ -1,1 +1,1 @@
-# ML_Ops_Deployment_on_AWS_EC2
+# Deploying Flask App on various platforms
